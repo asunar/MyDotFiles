@@ -6,7 +6,7 @@ set nocompatible
 set nobackup
 set nowb
 set noswapfile
-
+set backupdir=~/tmp
 " syntax highligting
 syntax enable
 set background=dark
@@ -29,8 +29,8 @@ set sw=4
 set hlsearch
 
 " Set default font
-"set guifont=Segoe_UI_Mono:h12.cANSI
-set guifont=Bitstream_Vera_Sans_Mono:h11:cANSI
+set guifont=Segoe_UI_Mono:h12.cANSI
+"set guifont=Bitstream_Vera_Sans_Mono:h11:cANSI
 
 " \+n toggles the nerdtree
 map <leader>n :NERDTreeToggle<CR>
